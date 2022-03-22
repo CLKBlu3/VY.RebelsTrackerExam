@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
+    <PackageReference Include="Serilog" Version="2.10.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VY.RebelsExam.Business.Contracts\VY.RebelsExam.Business.Contracts.csproj" />
+    <ProjectReference Include="..\VY.RebelsExam.Data.Contracts\VY.RebelsExam.Data.Contracts.csproj" />
+    <ProjectReference Include="..\VY.RebelsExam.Data.Implementation\VY.RebelsExam.Data.Implementation.csproj" />
+    <ProjectReference Include="..\VY.RebelsExam.Dtos\VY.RebelsExam.Dtos.csproj" />
+    <ProjectReference Include="..\VY.RebelsExam.Infrastructure.Contracts\VY.RebelsExam.Infrastructure.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
